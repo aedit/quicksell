@@ -1,0 +1,49 @@
+.kanban-board {
+    display: flex;
+    gap: 3rem;
+    padding: 32px 32px 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    height: 100%;
+}
+
+.kanban-board__column {
+  flex: 0 0 368px;
+  padding-bottom: 16px;
+}
+
+.kanban-board__area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.kanban-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.kanban-header__main {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap:0.5rem;
+}
+
+.kanban-header__main__title {
+  font-weight: 600;
+}
+
+.kanban-header__main__count {
+  color: #6B6F76;
+  font-size: 14px
+}
+
+.kanban-header__main__actions{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+

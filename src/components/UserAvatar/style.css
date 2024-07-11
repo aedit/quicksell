@@ -1,0 +1,22 @@
+.user-avatar {
+    font-size: 10px;
+    color: white;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.user-avatar__available {
+    height: 8px;
+    width: 8px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    border: 1px solid white;
+}
